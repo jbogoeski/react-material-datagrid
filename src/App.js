@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Todos from "./components/Todos";
 import ExampleDataGrid from './components/DataGrid/ExampleDataGrid';
+import ExampleDetailsInvoices from './components/Details/ExampleDetailsInvoices';
 
 
 
@@ -71,6 +72,9 @@ class App extends Component {
                     </Route>
                     <Route path="/about">
                         <ExampleDataGrid />
+                    </Route>
+                    <Route path="/details">
+                        <ExampleDetailsInvoices />
                     </Route>
                 </Switch>
             </Router>
